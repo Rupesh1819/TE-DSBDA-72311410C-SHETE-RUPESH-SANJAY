@@ -53,7 +53,7 @@ Combines TF and IDF to highlight important words.
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 - Python
 - NLTK
 - Scikit-learn
