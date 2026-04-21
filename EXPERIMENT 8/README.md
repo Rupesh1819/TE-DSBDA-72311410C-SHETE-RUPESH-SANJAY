@@ -72,16 +72,6 @@ Displays how ticket prices are distributed among passengers.
 
 ---
 
-##  How to Run
-1. Install required libraries:
-   ```bash
-   pip install seaborn matplotlib pandas
-   ```
-2. Open Jupyter Notebook or Google Colab
-3. Run the Python code
-
----
-
 ##  Observations
 - Females had higher survival rate than males
 - First-class passengers had better survival chances
@@ -94,6 +84,3 @@ Displays how ticket prices are distributed among passengers.
 Data visualization helps in extracting meaningful insights from datasets. Using Seaborn, we identified survival patterns and analyzed fare distribution effectively.
 
 ---
-
-## 📎 Notes
-This experiment is part of the **DSBDA (Data Science and Big Data Analytics)** practical curriculum.
