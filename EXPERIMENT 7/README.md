@@ -4,7 +4,7 @@
 This project demonstrates basic **Text Analytics (Text Mining)** techniques using Python. It includes document preprocessing steps and representation using **TF-IDF (Term Frequency - Inverse Document Frequency)**.
 
 ---
-## Problem Statement 
+## Problem Statement  
 Text Analytics
 1. Extract Sample document and apply following document preprocessing methods:
 Tokenization, POS Tagging, stop words removal, Stemming and Lemmatization.
