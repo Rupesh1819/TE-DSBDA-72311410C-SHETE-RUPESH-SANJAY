@@ -70,39 +70,12 @@ sudo apt install openjdk-11-jdk -y
 java -version
 ```
 
-### Step 2: Create project folder and navigate into it
-
-```bash
-mkdir ~/WeatherAverage
-cd ~/WeatherAverage
-```
-
-### Step 3: Create the Java file
-
-```bash
-nano WeatherAverage.java
-```
-
-Paste the entire `WeatherAverage.java` code, then press:
-- `Ctrl + X` → `Y` → `Enter` to save
-
-### Step 4: Create the dataset file
-
-```bash
-nano sample_weather.txt
-```
-
-Paste the dataset content, then save with `Ctrl + X` → `Y` → `Enter`
-
-### Step 5: Compile the Java file
+### Step 2: Compile the Java file
 
 ```bash
 javac WeatherAverage.java
 ```
-
-This creates `WeatherAverage.class` in the same folder.
-
-### Step 6: Run the program
+### Step 3: Run the program
 
 ```bash
 java WeatherAverage
