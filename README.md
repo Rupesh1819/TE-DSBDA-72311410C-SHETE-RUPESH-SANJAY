@@ -6,7 +6,7 @@
 Third Year Computer Engineering (SPPU - 2019 Course)  
 Academic Year: 2025-26 / Sem-II  
 
-## 👨‍🎓 Student Details
+##  Student Details
 Name: Rupesh Sanjay Shete  
 PRN no : 7231410C
 
@@ -79,8 +79,6 @@ Write a simple program in Scala using Apache Spark framework.
 
 ## GROUP C
 
-### Mini Project 1
-
-### Mini Project 2
+### Mini Project 
 
 ---
