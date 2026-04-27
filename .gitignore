@@ -6,7 +6,7 @@ __pycache__/
 # C extensions
 *.so
 #pkl files
-*.pkl
+MINI PROJECT/*.pkl
 
 # Distribution / packaging
 .Python
