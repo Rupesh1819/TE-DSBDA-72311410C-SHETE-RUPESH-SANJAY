@@ -80,3 +80,26 @@ javac WeatherAverage.java
 ```bash
 java WeatherAverage
 ```
+
+
+ubantu Run
+cd ~/Desktop/72311410C
+
+start-dfs.sh
+start-yarn.sh
+
+jps
+
+javac -classpath `hadoop classpath` -d . WeatherDriver.java WeatherMapper.java WeatherReducer.java
+
+jar -cvf weather-hadoop.jar *.class
+
+hadoop fs -mkdir -p /weather/input
+
+hadoop fs -put sample_weather.txt /weather/input/
+
+hadoop fs -rm -r /weather/output
+
+hadoop jar weather-hadoop.jar WeatherDriver /weather/input/sample_weather.txt /weather/output
+
+hadoop fs -cat /weather/output/part-r-00000
